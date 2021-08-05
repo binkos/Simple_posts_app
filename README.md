@@ -1,1 +1,2 @@
-# Simple_posts_app
+# PostsApplication
+
