@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/all_posts">
+
+    <fragment
+        android:id="@+id/all_posts"
+        android:name="com.vladislav.posts.testapplication.presentation.ui.allposts.AllPostsFragment">
+        <action
+            android:id="@+id/action_all_posts_to_post_details"
+            app:destination="@id/post_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/post_details"
+        android:name="com.vladislav.posts.testapplication.presentation.ui.postdetails.PostDetailsFragment">
+        <argument
+            android:name="post_id"
+            app:argType="long" />
+    </fragment>
+</navigation>
