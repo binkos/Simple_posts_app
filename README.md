@@ -1,6 +1,6 @@
 # Post - Modern Android Architecture
 
-Foodies is a sample project that presents a modern approach to Android app development.
+Posts is a sample project that presents a modern approach to Android app development and load posts.
 
 The project tries to combine popular Android tools and to demonstrate best development practices by utilizing up to date tech-stack like Compose, Kotlin Flow and Dagger.
 
