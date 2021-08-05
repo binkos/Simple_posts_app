@@ -26,6 +26,6 @@ class DatabaseModule {
     fun provideUserDao(database: AppDatabase): UserDao = database.getUserDao()
 
     private companion object {
-        private const val DATABASE_NAME = "bitsens_db"
+        private const val DATABASE_NAME = "posts_app_db"
     }
 }
